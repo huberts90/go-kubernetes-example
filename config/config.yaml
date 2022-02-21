@@ -1,0 +1,7 @@
+signerPod:
+  namespace: signer
+  serviceAccount: signer
+  keyConfigmap: investigate-go-configmap-keyconf
+  imagePullSecret: secret
+  timeout: 5s
+  volumeClaim: nfs-claim
